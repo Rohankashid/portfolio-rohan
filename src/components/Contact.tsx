@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section id="contact" className="section-padding bg-gray-900">
       <div className="container-custom">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8">Get in Touch</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">Get in Touch</h2>
         <div className="max-w-2xl">
           <p className="text-gray-300 mb-8">
             I'm always open to new opportunities and collaborations.

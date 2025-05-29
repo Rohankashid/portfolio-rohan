@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Rohan's Portfolio",
-  description: "Full Stack Developer Portfolio showcasing my work and skills",
+  description: "Full Stack Developer Portfolio showcasing projects and skills",
 };
 
 export default function RootLayout({
@@ -16,8 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} bg-black text-white antialiased`}>
-        {children}
+      <body className={`${inter.className} antialiased`}>
+        <main className="min-h-screen bg-gradient-to-b from-background to-background/80">
+          {children}
+          <ScrollToTop />
+        </main>
       </body>
     </html>
   );
