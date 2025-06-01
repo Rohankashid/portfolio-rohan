@@ -33,12 +33,12 @@ const ConnectMe = () => {
     <section id="connect" className="section-padding bg-black text-white">
       <div className="container-custom">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
-          Let's Connect
+          Let&apos;s Connect
         </h2>
         
         <div className="max-w-2xl mx-auto">
           <p className="text-center text-gray-300 mb-12 text-lg">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">

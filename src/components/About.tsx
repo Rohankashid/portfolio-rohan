@@ -11,7 +11,7 @@ const About = () => {
            From idea to execution
           </h2>
             <p className="text-lg text-foreground/80 leading-relaxed">
-              👋 Hi, I'm Rohan Kashid — A motivated and adaptable Computer Science Engineering graduate seeking an entry-level position to apply my technical skills and gain exposure to advanced technologies. Eager to contribute to the growth of an organization while continuously enhancing my knowledge.
+              👋 Hi, I&apos;m Rohan Kashid — A motivated and adaptable Computer Science Engineering graduate seeking an entry-level position to apply my technical skills and gain exposure to advanced technologies. Eager to contribute to the growth of an organization while continuously enhancing my knowledge.
           </p>
           </div>
 
